@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_LocationDemoVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_LocationDemoVersionString[];
+FOUNDATION_EXPORT double Pods_EmplacementAppVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_EmplacementAppVersionString[];
 

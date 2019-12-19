@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -22,7 +22,7 @@
 		13A95A2E20F3701B00A6E52B /* LocationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A95A2D20F3701A00A6E52B /* LocationDelegate.swift */; };
 		13A95A3120F37E5300A6E52B /* LocationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A95A3020F37E5300A6E52B /* LocationCell.swift */; };
 		13A95A3420F3A19B00A6E52B /* UserDefaultManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A95A3320F3A19B00A6E52B /* UserDefaultManager.swift */; };
-		7A7864FC0094C5C56C86B5C5 /* Pods_LocationDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 947EFDEE2555A87120DCC3C0 /* Pods_LocationDemo.framework */; };
+		6AD5258BC841FAD64DEC678A /* Pods_EmplacementApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CC7BD01C3F95818C7AD285A /* Pods_EmplacementApp.framework */; };
 		FC515FFA20F4476600F4F237 /* Location+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC515FF420F4476600F4F237 /* Location+CoreDataClass.swift */; };
 		FC515FFB20F4476600F4F237 /* Location+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC515FF520F4476600F4F237 /* Location+CoreDataProperties.swift */; };
 		FC515FFC20F4476600F4F237 /* Coordinates+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC515FF620F4476600F4F237 /* Coordinates+CoreDataClass.swift */; };
@@ -38,7 +38,7 @@
 /* Begin PBXFileReference section */
 		13502116222E89E700681D05 /* BluetoothManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BluetoothManager.swift; sourceTree = "<group>"; };
 		1350211A222E930B00681D05 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
-		13A95A0320F3619D00A6E52B /* LocationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13A95A0320F3619D00A6E52B /* EmplacementApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmplacementApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13A95A0620F3619D00A6E52B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		13A95A0820F3619D00A6E52B /* LocationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationController.swift; sourceTree = "<group>"; };
 		13A95A0B20F3619D00A6E52B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -53,9 +53,9 @@
 		13A95A2D20F3701A00A6E52B /* LocationDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDelegate.swift; sourceTree = "<group>"; };
 		13A95A3020F37E5300A6E52B /* LocationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationCell.swift; sourceTree = "<group>"; };
 		13A95A3320F3A19B00A6E52B /* UserDefaultManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultManager.swift; sourceTree = "<group>"; };
-		947EFDEE2555A87120DCC3C0 /* Pods_LocationDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LocationDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A7644D5C1C61EB74F2F4EE97 /* Pods-LocationDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocationDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-LocationDemo/Pods-LocationDemo.release.xcconfig"; sourceTree = "<group>"; };
-		D8236FCDF0A494608F94630A /* Pods-LocationDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocationDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LocationDemo/Pods-LocationDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		1CC7BD01C3F95818C7AD285A /* Pods_EmplacementApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EmplacementApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB5C758E8C436C8C47F69C8A /* Pods-EmplacementApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmplacementApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EmplacementApp/Pods-EmplacementApp.debug.xcconfig"; sourceTree = "<group>"; };
+		D00523713CDA5AD1EACB1E30 /* Pods-EmplacementApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmplacementApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-EmplacementApp/Pods-EmplacementApp.release.xcconfig"; sourceTree = "<group>"; };
 		FC515FF420F4476600F4F237 /* Location+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Location+CoreDataClass.swift"; sourceTree = "<group>"; };
 		FC515FF520F4476600F4F237 /* Location+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Location+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		FC515FF620F4476600F4F237 /* Coordinates+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Coordinates+CoreDataClass.swift"; sourceTree = "<group>"; };
@@ -74,7 +74,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1350211B222E930B00681D05 /* CoreBluetooth.framework in Frameworks */,
-				7A7864FC0094C5C56C86B5C5 /* Pods_LocationDemo.framework in Frameworks */,
+				6AD5258BC841FAD64DEC678A /* Pods_EmplacementApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,7 +101,7 @@
 		13A959FA20F3619D00A6E52B = {
 			isa = PBXGroup;
 			children = (
-				13A95A0520F3619D00A6E52B /* LocationDemo */,
+				13A95A0520F3619D00A6E52B /* EmplacementApp */,
 				13A95A0420F3619D00A6E52B /* Products */,
 				3E8B1B86AF7A3D345DCE2D18 /* Pods */,
 				C3753CF719BDF0F463A999DA /* Frameworks */,
@@ -111,12 +111,12 @@
 		13A95A0420F3619D00A6E52B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13A95A0320F3619D00A6E52B /* LocationDemo.app */,
+				13A95A0320F3619D00A6E52B /* EmplacementApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		13A95A0520F3619D00A6E52B /* LocationDemo */ = {
+		13A95A0520F3619D00A6E52B /* EmplacementApp */ = {
 			isa = PBXGroup;
 			children = (
 				13502114222E889000681D05 /* Feature */,
@@ -129,7 +129,7 @@
 				13A95A1220F3619F00A6E52B /* LaunchScreen.storyboard */,
 				13A95A1520F3619F00A6E52B /* Info.plist */,
 			);
-			path = LocationDemo;
+			path = EmplacementApp;
 			sourceTree = "<group>";
 		};
 		13A95A1B20F3630900A6E52B /* CoreData */ = {
@@ -185,8 +185,8 @@
 		3E8B1B86AF7A3D345DCE2D18 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D8236FCDF0A494608F94630A /* Pods-LocationDemo.debug.xcconfig */,
-				A7644D5C1C61EB74F2F4EE97 /* Pods-LocationDemo.release.xcconfig */,
+				CB5C758E8C436C8C47F69C8A /* Pods-EmplacementApp.debug.xcconfig */,
+				D00523713CDA5AD1EACB1E30 /* Pods-EmplacementApp.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -195,7 +195,7 @@
 			isa = PBXGroup;
 			children = (
 				1350211A222E930B00681D05 /* CoreBluetooth.framework */,
-				947EFDEE2555A87120DCC3C0 /* Pods_LocationDemo.framework */,
+				1CC7BD01C3F95818C7AD285A /* Pods_EmplacementApp.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -232,9 +232,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		13A95A0220F3619D00A6E52B /* LocationDemo */ = {
+		13A95A0220F3619D00A6E52B /* EmplacementApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13A95A1820F3619F00A6E52B /* Build configuration list for PBXNativeTarget "LocationDemo" */;
+			buildConfigurationList = 13A95A1820F3619F00A6E52B /* Build configuration list for PBXNativeTarget "EmplacementApp" */;
 			buildPhases = (
 				657B00ECF217E3A79228BB56 /* [CP] Check Pods Manifest.lock */,
 				13A959FF20F3619D00A6E52B /* Sources */,
@@ -246,9 +246,9 @@
 			);
 			dependencies = (
 			);
-			name = LocationDemo;
+			name = EmplacementApp;
 			productName = LocationDemo;
-			productReference = 13A95A0320F3619D00A6E52B /* LocationDemo.app */;
+			productReference = 13A95A0320F3619D00A6E52B /* EmplacementApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -271,7 +271,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 13A959FE20F3619D00A6E52B /* Build configuration list for PBXProject "LocationDemo" */;
+			buildConfigurationList = 13A959FE20F3619D00A6E52B /* Build configuration list for PBXProject "EmplacementApp" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -284,7 +284,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13A95A0220F3619D00A6E52B /* LocationDemo */,
+				13A95A0220F3619D00A6E52B /* EmplacementApp */,
 			);
 		};
 /* End PBXProject section */
@@ -314,7 +314,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-LocationDemo-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-EmplacementApp-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -326,17 +326,16 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-LocationDemo/Pods-LocationDemo-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EmplacementApp/Pods-EmplacementApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EmplacementApp/Pods-EmplacementApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LocationDemo/Pods-LocationDemo-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EmplacementApp/Pods-EmplacementApp-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -508,18 +507,18 @@
 		};
 		13A95A1920F3619F00A6E52B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D8236FCDF0A494608F94630A /* Pods-LocationDemo.debug.xcconfig */;
+			baseConfigurationReference = CB5C758E8C436C8C47F69C8A /* Pods-EmplacementApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = LocationDemo/Info.plist;
+				INFOPLIST_FILE = EmplacementApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.locationdemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.emplacementApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
@@ -529,18 +528,18 @@
 		};
 		13A95A1A20F3619F00A6E52B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A7644D5C1C61EB74F2F4EE97 /* Pods-LocationDemo.release.xcconfig */;
+			baseConfigurationReference = D00523713CDA5AD1EACB1E30 /* Pods-EmplacementApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = LocationDemo/Info.plist;
+				INFOPLIST_FILE = EmplacementApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.locationdemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.emplacementApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
@@ -551,7 +550,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		13A959FE20F3619D00A6E52B /* Build configuration list for PBXProject "LocationDemo" */ = {
+		13A959FE20F3619D00A6E52B /* Build configuration list for PBXProject "EmplacementApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13A95A1620F3619F00A6E52B /* Debug */,
@@ -560,7 +559,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13A95A1820F3619F00A6E52B /* Build configuration list for PBXNativeTarget "LocationDemo" */ = {
+		13A95A1820F3619F00A6E52B /* Build configuration list for PBXNativeTarget "EmplacementApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13A95A1920F3619F00A6E52B /* Debug */,
